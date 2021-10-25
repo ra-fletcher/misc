@@ -1,7 +1,5 @@
 # Looped linear regression ------------------------------------------------
 
-library(tidyverse)
-
 # Approach 1
 run_multiple_lm_1 = function(df, outcomes) {
   
