@@ -131,9 +131,3 @@ run_coxme  = function(day, ep_var, ep_date_var) {
     )
   return(model_results)
 }
-
-
-
-
-
-
