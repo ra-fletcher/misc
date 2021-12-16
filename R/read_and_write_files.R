@@ -23,7 +23,7 @@ read_and_write_files = function(x, y, output) {
     readr::write_rds(stringr::str_glue("{output}/{y}.rds"))
   
   # Remove objects from the Global Environment (to save memory)
-  rm(list = ls(envir = .GlobalEnv))
+  rm(list = y, envir = .GlobalEnv)
   gc()
 }
 
