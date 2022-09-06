@@ -57,10 +57,10 @@ library(tidyverse)
 # Define plot main colour (axes, text, etc.)
 off_black = "#2F3A44"
 
-# Define plot square colour
+# Define plot square marker colour
 ocean_blue = "#0065C4"
 
-# Define font
+# Define plot font
 font = "Arial"
 
 
